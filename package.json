@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -p",
-    "start": "start http://localhost:3000 & node server.js"
+    "start": "opn http://localhost:3000 & node server.js"
   },
   "author": "daniel.chan@travelport.com",
   "license": "ISC",
@@ -14,5 +14,7 @@
     "compression": "^1.7.0",
     "express": "^4.15.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "opn-cli": "^3.1.0"
+  }
 }
