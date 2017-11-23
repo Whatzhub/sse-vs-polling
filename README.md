@@ -1,6 +1,11 @@
 This is a sample demonstrating the efficiency and speed of using Server-Sent Events (SSE) against traditional polling techniques.
 
-Further Readings: 
+### Why you should consider using SSE over Polling
+
+A detailed write-up can be viewed here https://goo.gl/PKZNCP
+
+### Further Readings
+Server-sent events (MDN)
 https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events
 
 Yaffle's EventSource polyfill: 
